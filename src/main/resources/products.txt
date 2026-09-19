@@ -1,0 +1,26 @@
+ACME TECH - PRODUCT CATALOGUE
+
+Product: NovaBook Air 14
+Description: An ultra-thin 14-inch laptop built for developers and business travelers. Fanless design with all-day battery life.
+Price: $1,299
+Key Features: 14-hour battery life, 16GB unified memory, 512GB SSD, fanless silent design, weighs just 1.1kg.
+
+Product: PulseBuds Pro
+Description: Noise-cancelling wireless earbuds with adaptive sound and a compact charging case.
+Price: $179
+Key Features: Active noise cancellation, 6-hour playback per charge (24 hours with case), IPX4 water resistance, touch controls.
+
+Product: GridDesk Standing Converter
+Description: A desktop standing converter that turns any desk into a sit-stand workstation in seconds.
+Price: $249
+Key Features: Gas-spring height adjustment, supports up to two monitors, built-in cable management, holds up to 15kg.
+
+Product: SnapCart Mini Printer
+Description: A compact photo printer that connects to your phone and prints credit-card-sized photos instantly.
+Price: $89
+Key Features: Bluetooth connectivity, prints in under 40 seconds, no ink required (uses ZINK paper), rechargeable battery.
+
+Product: OrbitLock Smart Padlock
+Description: A Bluetooth-enabled padlock for lockers, gyms, and storage units, controlled entirely from a phone app.
+Price: $59
+Key Features: Fingerprint and app unlock, waterproof housing, 6-month battery life, share temporary access codes with others.

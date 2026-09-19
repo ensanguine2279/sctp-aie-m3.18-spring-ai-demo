@@ -1,0 +1,5 @@
+- The Q3 platform migration was completed two weeks late due to a dependency issue with the payments module.  
+- An undocumented dependency on the old session service was identified during integration testing.  
+- A temporary adapter was created to resolve the dependency, set to be removed in Q1.  
+- Post-migration, system latency improved by 18% and error rates during peak hours decreased.  
+- The team suggests conducting a dependency audit before future migrations and starting integration testing earlier.  

@@ -1,0 +1,513 @@
+{
+  "info": {
+    "_postman_id": "27ee5143-3708-4ccd-b8c1-bfffdb97903c",
+    "name": "SCTP AIE M3.18 - Spring AI Demo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "13967603"
+  },
+  "item": [
+    {
+      "name": "FAQ",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/rag/faq?question=What is the refund policy",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "rag",
+            "faq"
+          ],
+          "query": [
+            {
+              "key": "question",
+              "value": "What is the refund policy"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "200 - Refund policy",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/rag/faq?question=What is the refund policy",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "rag",
+                "faq"
+              ],
+              "query": [
+                {
+                  "key": "question",
+                  "value": "What is the refund policy"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "172"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 19 Sep 2026 01:24:41 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "ACME CRM offers a 30-day money-back guarantee. If you are not satisfied within the first 30 days, you can contact support@acmecrm.com for a full refund, no questions asked."
+        },
+        {
+          "name": "200 - Professional plan",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/rag/faq?question=How much does the Professional plan cost?",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "rag",
+                "faq"
+              ],
+              "query": [
+                {
+                  "key": "question",
+                  "value": "How much does the Professional plan cost?"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "76"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 19 Sep 2026 01:27:51 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "The Professional plan costs $49 per month and supports up to 5000 customers."
+        },
+        {
+          "name": "200 - Add customer",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/rag/faq?question=How do I add a customer?",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "rag",
+                "faq"
+              ],
+              "query": [
+                {
+                  "key": "question",
+                  "value": "How do I add a customer?"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "226"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 19 Sep 2026 01:28:43 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "To add a new customer, go to the Customers section, click the \"Add Customer\" button, fill in the required fields (first name, last name, email), and then click Save. The system will automatically generate a unique customer ID."
+        },
+        {
+          "name": "200 - Salesforce",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/rag/faq?question=Do you support integration with Salesforce?",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "rag",
+                "faq"
+              ],
+              "query": [
+                {
+                  "key": "question",
+                  "value": "Do you support integration with Salesforce?"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "125"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 19 Sep 2026 01:31:15 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "I don't have that information. I suggest contacting support@acmecrm.com for assistance regarding integration with Salesforce."
+        }
+      ]
+    },
+    {
+      "name": "Chat",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/chat?message=What is ACME CRM's refund policy?",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "chat"
+          ],
+          "query": [
+            {
+              "key": "message",
+              "value": "What is ACME CRM's refund policy?"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "200 - Refund policy",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/chat?message=What is ACME CRM's refund policy?",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "chat"
+              ],
+              "query": [
+                {
+                  "key": "message",
+                  "value": "What is ACME CRM's refund policy?"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "406"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 19 Sep 2026 01:42:28 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "I don't have specific information regarding ACME CRM's refund policy as it may vary by company and can change over time. To find the most accurate and up-to-date information, I recommend visiting ACME CRM's official website or contacting their customer support directly. They should provide detailed information regarding their refund policy, including conditions, timeframes, and any other relevant terms."
+        }
+      ]
+    },
+    {
+      "name": "Product Info",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/rag/product-info?question=What products do you have under $100?",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "rag",
+            "product-info"
+          ],
+          "query": [
+            {
+              "key": "question",
+              "value": "What products do you have under $100?"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "200 - Under $200",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/rag/product-info?question=What products do you have under $100?",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "rag",
+                "product-info"
+              ],
+              "query": [
+                {
+                  "key": "question",
+                  "value": "What products do you have under $100?"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "669"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 19 Sep 2026 02:17:51 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "We have two products under $100:\n\n1. **SnapCart Mini Printer** - Price: $89\n   - Description: A compact photo printer that connects to your phone and prints credit-card-sized photos instantly.\n   - Key Features: Bluetooth connectivity, prints in under 40 seconds, no ink required (uses ZINK paper), rechargeable battery.\n\n2. **OrbitLock Smart Padlock** - Price: $59\n   - Description: A Bluetooth-enabled padlock for lockers, gyms, and storage units, controlled entirely from a phone app.\n   - Key Features: Fingerprint and app unlock, waterproof housing, 6-month battery life, share temporary access codes with others.\n\nIf you have any more questions, feel free to ask!"
+        },
+        {
+          "name": "200 - PulseBuds",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/rag/product-info?question=Tell me about the PulseBuds Pro",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "rag",
+                "product-info"
+              ],
+              "query": [
+                {
+                  "key": "question",
+                  "value": "Tell me about the PulseBuds Pro"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "392"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 19 Sep 2026 03:18:50 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "The PulseBuds Pro are noise-cancelling wireless earbuds that come with adaptive sound and a compact charging case. They are priced at $179 and feature active noise cancellation, providing 6 hours of playback per charge (and 24 hours with the case). They also have an IPX4 water resistance rating and touch controls for ease of use. If you have any more questions about them, feel free to ask!"
+        },
+        {
+          "name": "200 - Key features",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{url}}/rag/product-info?question=What are the key features of the OrbitLock Smart Padlock?",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "rag",
+                "product-info"
+              ],
+              "query": [
+                {
+                  "key": "question",
+                  "value": "What are the key features of the OrbitLock Smart Padlock?"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "258"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 19 Sep 2026 03:21:47 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "The key features of the OrbitLock Smart Padlock are:\n\n- Fingerprint and app unlock\n- Waterproof housing\n- 6-month battery life\n- Ability to share temporary access codes with others\n\nIf you have any more questions or need further assistance, feel free to ask!"
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "url",
+      "value": ""
+    }
+  ]
+}

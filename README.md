@@ -1,0 +1,1 @@
+Completed the spring-ai-demo from [Lesson 3.18: Spring AI Part 3 — Retrieval Augmented Generation (RAG)](https://github.com/su-ntu-sctp/ai-3.18-spring-ai-part-3/blob/main/lesson.md)
